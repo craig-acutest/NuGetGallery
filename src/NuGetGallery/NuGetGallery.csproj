@@ -28,7 +28,8 @@
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
     <TargetFrameworkProfile />
-    <IISExpressSSLPort>443</IISExpressSSLPort>
+    <IISExpressSSLPort>
+    </IISExpressSSLPort>
     <DownloadNuGetExe>true</DownloadNuGetExe>
     <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
     <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
@@ -1405,7 +1406,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>80</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://nuget.localtest.me</IISUrl>
+          <IISUrl>http://localhost/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
